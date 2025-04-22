@@ -1,0 +1,23 @@
+{
+  "name": "swiggy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NachiyammaiAlagappanal/SwiggyWebSite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NachiyammaiAlagappanal/SwiggyWebSite/issues"
+  },
+  "homepage": "https://github.com/NachiyammaiAlagappanal/SwiggyWebSite#readme",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
