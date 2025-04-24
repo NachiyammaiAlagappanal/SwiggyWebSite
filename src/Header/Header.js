@@ -1,10 +1,11 @@
 import Logo from './Logo';
+import NavBar from './NavBar';
 
 const Header = () => {
     return (
-        <div>
+        <div className="header">
         <Logo/>
-        {/* <NavBar/> */}
+        <NavBar/>
         </div>
     )
 }
