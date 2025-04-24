@@ -4,17 +4,14 @@ import Body from "./Body/Body";
 import Footer from "./Footer/Footer";
 import { useEffect } from "react";
 import './App.css'
-import getData from "./Data";
+import Shimmer from "./shimmer";
 
 const App = () => 
    {
-
-  useEffect(() => {
-    getData();
-  }, []);
         return <div>
             <Header />
             <Body />
+            <Shimmer/>
             <Footer />
         </div>;
     }
