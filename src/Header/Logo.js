@@ -1,8 +1,8 @@
-import LogoImage from '../../Images/logo.jpg';
+import logo from '../Images/logo.jpg';
 
 const Logo = () => {
     return <div>
-        <img src={LogoImage} alt="Logo" className="logo"/>
+        <img src={logo} alt="Logo" className="logo"/>
         </div>
 }
 
